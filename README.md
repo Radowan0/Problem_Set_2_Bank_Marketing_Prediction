@@ -92,3 +92,8 @@ The model performs well, especially identifying "no" class, which is the majorit
 ## ROC Curve
 The ROC curve shows a strong separability with AUC ≈ 0.90.
 
+---
+
+## Conclusion
+Logistic Regression works effectively for this dataset with 88% accuracy. The model predicts non-subscribers more accurately (dataset imbalance). AUC score of 0.90 indicates strong predictive power. One-hot encoding was essential due to many categorical variables.This model can help banks identify likely customers for marketing campaigns.
+
